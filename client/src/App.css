@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #E3E3E3;
+  color: #A68A73;
 }
 
 .app_header{
@@ -7,7 +9,22 @@
   color: white;
 }
 
+.app_home{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.construction_img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("./Images/under-construction-sign-vector-21366350.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 1px;
+}
 .app_footer{
-  background-color: green;
-  color: pink;
+  border-top: solid 2px #A68A73;
+  padding: 10px;
 }
