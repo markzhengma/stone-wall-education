@@ -4,7 +4,17 @@ class Footer extends Component {
   render() {
     return (
       <div className = "app_footer">
-          This is the footer!
+          <div className = "row">
+              <div className = "col-sm-4">
+                  About
+              </div>
+              <div className = "col-sm-4">
+                  Reference
+              </div>
+              <div className = "col-sm-4">
+                  Contact
+              </div>
+          </div>
       </div>
     );
   }
