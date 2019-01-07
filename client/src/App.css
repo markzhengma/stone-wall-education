@@ -1,7 +1,12 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
-  background-color: #E3E3E3;
-  color: #A68A73;
+  width: 100vw;
+  /* background-color: #E3E3E3;
+  color: #A68A73; */
 }
 
 .app_header{
@@ -10,21 +15,91 @@
 }
 
 .app_home{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  background-image: url("./Images/home-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
 }
 
-.construction_img{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-image: url("./Images/under-construction-sign-vector-21366350.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 200px;
-  width: 1px;
+.welcome_section{
+  background-color: rgba(58, 48, 30, 0.356);
+  overflow: hidden;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Righteous', cursive;
+  color: #E3E3E3;
 }
+
+/* .home_banner{
+  height: 120px;
+  background-color: white;
+  width: 100%;
+  padding-top: 10px;
+} */
+
+/* .logo_img{
+  background-image: url("./Images/stonewall-logo.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 380px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+} */
+
+.intro_section{
+  background-color: #E3E3E3;
+  color: #A68A73;
+  padding: 40px;
+}
+
+.category_section{
+  background-image: url("./Images/rainbow.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.category_section_background{
+  background-color: rgba(58, 48, 30, 0.226);
+  padding: 40px;
+}
+
+.category_single{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat_icon{
+  height: 80px;
+  width: 80px;
+  background-image: url("./Images/icon-sample.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.highlight_section{
+  height: 500px;
+  padding: 40px;
+  background-color: #A68A73;
+  color: #E3E3E3;
+}
+
+.contact_section{
+  color: #E3E3E3;
+  background-color: rgba(58, 48, 30, 0.356);
+  height: 500px;
+  padding: 40px;
+}
+
 .app_footer{
   border-top: solid 2px #A68A73;
-  padding: 10px;
 }
