@@ -11,7 +11,7 @@ class Home extends Component {
                 <div className = "row">
                     <div className = "col-sm-3"/>
                     <div className = "col-sm-6 home_title">
-                        <h1>Stonewall Project</h1>
+                        <h1>Stonewall Project-1</h1>
                         <h3>Digital Curriculum</h3>
                     </div>
                     <div className = "col-sm-3"/>
@@ -42,7 +42,7 @@ class Home extends Component {
             </div>
             <div className = "highlight_section">
                 <h3>Here's the highlight course list</h3>
-                
+
             </div>
             <div className = "contact_section">
                 <h3>Here's the contact section</h3>
