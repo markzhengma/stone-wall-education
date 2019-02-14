@@ -37,6 +37,9 @@ server.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+const resourceRoutes = require('./routes/resource-routes');
+server.use('/resource', resourceRoutes);
+
 server.use('*',(req,res) => {
     res.status(400).json({
         message:'Not found!',
