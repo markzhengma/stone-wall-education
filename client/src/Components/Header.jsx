@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
       // Nav Bar
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand" href="#">StoneWall</a>
+    <Link className="navbar-brand" to = "/">StoneWall</Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,6 +23,7 @@ class Header extends Component {
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <a className="dropdown-item" href="#">Grade</a>
             <a className="dropdown-item" href="#">Topic</a>
+            <Link className="dropdown-item" to = "/resource">Resources</Link>
           </div>
         </li>
         <li className="nav-item">
