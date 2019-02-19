@@ -9,13 +9,71 @@ html, body{
   color: #A68A73; */
 }
 
+.head_bar {
+  height: 50px;
+  background-color: black;
+  padding-top: 7px;
+}
+
+.logo_img {
+  background-image: url("./Images/NationalParkService-Logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 35px;
+  margin-left: 135px;
+}
+
+.logo_text {
+  color: white;
+  font-size: 16px;
+  margin-top: -29px;
+  margin-left: -775px;
+  font-weight: bold;
+}
+
+.home_front {
+  background-image: url("./Images/frontpage_pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 373px;
+  width: 100%;
+  position: relative;
+}
+
+.introduction {
+  background-color: rgba(58, 48, 30, 0.356);
+  height: 63px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 135px;
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 135px;
+}
+
+.dropdown-menu {
+  background-color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  color: white;
+}
+
 .app_header{
   background-color: black;
   color: white;
 }
 
 .app_home{
-  background-image: url("./Images/home-background.jpg");
+  background-image: url("./Images/stonewall-b&w.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -25,7 +83,7 @@ html, body{
   overflow: scroll;
 }
 
-.welcome_section{
+/* .welcome_section{
   background-color: rgba(58, 48, 30, 0.356);
   overflow: hidden;
   height: 95vh;
@@ -34,6 +92,16 @@ html, body{
   justify-content: center;
   font-family: 'Righteous', cursive;
   color: #E3E3E3;
+} */
+
+.welcome_section {
+  background-color: rgba(58, 48, 30, 0.656);
+  height: 35vh;
+  color: #E3E3E3;
+}
+
+.home_title {
+  margin-top: 40px;
 }
 
 /* .home_banner{
@@ -52,51 +120,125 @@ html, body{
   border-radius: 10px;
 } */
 
-.intro_section{
+/* .intro_section{
   background-color: #E3E3E3;
   color: #A68A73;
   padding: 40px;
-}
+} */
 
 .category_section{
-  background-image: url("./Images/rainbow.jpg");
+  background-color: #E3E3E3;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  color: white;
-}
-.category_section_background{
-  background-color: rgba(58, 48, 30, 0.226);
-  padding: 40px;
+  height: 135vh;
 }
 
-.category_single{
+.category_section_title {
+  color: rgb(58, 48, 30);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* .category_single{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.cat_icon{
+/* .cat_icon{
   height: 80px;
   width: 80px;
   background-image: url("./Images/icon-sample.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+} */
+
+.grade_img {
+  height: 250px;
+  background-image: url("./Images/grades.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  margin-left: 26px;
+  margin-right: 13px;
 }
 
-.highlight_section{
-  height: 500px;
+.subject_img {
+  height: 250px;
+  background-image: url("./Images/subjects.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.search_img {
+  height: 250px;
+  background-image: url("./Images/search.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  margin-left: 13px;
+  margin-right: 26px;
+}
+
+/* .highlight_section{
+  height: 600px;
   padding: 40px;
-  background-color: #A68A73;
-  color: #E3E3E3;
+  background-color: #E3E3E3;
+  color: rgb(58, 48, 30);
+} */
+
+.hightlight_line{
+  height: 37px;
+  background-image: url("./Images/hightlight.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.hightlight_course{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course1_img{
+  height: 370px;
+  background-image: url("./Images/course1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  margin-top: 5px;
+}
+
+.course2_img{
+  height: 370px;
+  background-image: url("./Images/course2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  margin-top: 5px;
+}
+
+.grade_img:hover, .subject_img:hover, .search_img:hover, .course1_img:hover, .course2_img:hover {
+  filter: brightness(100%);
 }
 
 .contact_section{
   color: #E3E3E3;
   background-color: rgba(58, 48, 30, 0.356);
-  height: 500px;
+  height: 400px;
   padding: 40px;
 }
 
