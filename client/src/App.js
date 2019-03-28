@@ -7,6 +7,7 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
+import TL from './Components/TL';
 import ResourcePage from './Components/ResourcePage';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <div className="App">
           <Header/>
           <Route exact path = "/" render = {() => <Home/>}/>
+          <Route exact path = "/timeline" render = {() => <TL/>}/>
           <Route exact path = "/resource" render = {() => <ResourcePage/>}/>
           <Footer/>
         </div>

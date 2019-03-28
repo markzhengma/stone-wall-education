@@ -242,6 +242,69 @@ html, body{
   padding: 40px;
 }
 
+.timeline_title{
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+.timeline{
+  text-align:left;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.GREENWICH-VILLAGE_img{
+  background-image: url("./Images/TL-GREENWICH-VILLAGE.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+
+.STONEWALL-RIOT_img{
+  background-image: url("./Images/TL-STONEWALL-RIOT.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+
+.WASHINGTON-SQUARE_img{
+  background-image: url("./Images/TL-WASHINGTON-SQUARE.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+
+.HUDSON-RIVER_img{
+  background-image: url("./Images/TL-HUDSON-RIVER.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+
+.aids-memorial_img{
+  background-image: url("./Images/TL-aids-memorial.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+
+.STONEWALL-INN_img{
+  background-image: url("./Images/TL-STONEWALL-INN.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+
+.hover-content {
+    height: 0;
+    opacity: 0;
+}
+.parent:hover .hover-content {
+    height: auto;
+    opacity: 100;
+    transition: opacity 0.5s;
+    transition-timing-function: ease-in;
+}
+
 .app_footer{
   border-top: solid 2px #A68A73;
 }
